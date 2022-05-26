@@ -1,1 +1,2 @@
-ls -l, 777, ls .a
+#!/bin/bash
+ls -l, 777, ls.a
