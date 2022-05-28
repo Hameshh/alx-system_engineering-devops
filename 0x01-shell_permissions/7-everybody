@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod Josephine+x hello
+chmod ugo+x hello
