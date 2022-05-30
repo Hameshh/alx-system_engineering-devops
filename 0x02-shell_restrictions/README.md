@@ -1,1 +1,1 @@
-writ a script
+My first shell redirection readme
