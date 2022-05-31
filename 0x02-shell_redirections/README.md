@@ -1,1 +1,1 @@
-Write a script that writes into the file ls_cwd_content the result of the command.
+Write a shell script that creates a file named exactly containing the text Best School ending by a new line.
