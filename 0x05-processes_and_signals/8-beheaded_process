@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Kill a process instead it was trapped 
-killing_pid=$(pgrep -f './7-highlander')
-kill -s SIGKILL "$killing_pid"
+# Kills the process 7-highlander.
+
+pkill -f -SIGKILL 7-highlander
