@@ -1,6 +1,8 @@
-# Create a file in /tmp
-file {'/tmp/school':
+# creates a file in the /tmp directory
+file { '/tmp/school':
+  ensure  => 'file',
   mode    => '0744',
   owner   => 'www-data',
   group   => 'www-data',
-  content => 'I love Puppet'
+  content => 'I love Puppet',
+}
